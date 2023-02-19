@@ -20,8 +20,8 @@ export default function SearchBox() {
 				className="w-full h-14 rounded-sm placeholder-gray-500 bg-transparent outline-none flex-1"
 			/>
 			<button type="submit" className="text-amber-500 disabled:text-gray-500" disabled={!search}>
-				{" "}
-				Search{" "}
+				
+				Search
 			</button>
 		</form>
 	);
